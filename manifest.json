@@ -9,7 +9,8 @@
   "permissions": [
     "scripting",
     "activeTab",
-    "contextMenus"
+    "contextMenus",
+    "cookies"
   ],
   "action": {
     "default_icon": {
@@ -24,5 +25,10 @@
     "32": "images/icon-32.png",
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
-  }
+  },
+  "host_permissions": [
+    "https://api.solinfo.ro/*",
+    "https://solinfo.ro/*",
+    "https://*.pbinfo.ro/*"
+  ]
 }
