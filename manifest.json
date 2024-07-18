@@ -30,5 +30,11 @@
     "https://api.solinfo.ro/*",
     "https://solinfo.ro/*",
     "https://*.pbinfo.ro/*"
+  ],
+  "content_scripts":[
+    {
+      "matches": ["https://www.pbinfo.ro/*"],
+      "js":["content.js"]
+    }
   ]
 }
