@@ -1,3 +1,6 @@
 .depyvenv
 depy.json
 script.js
+node_modules
+dist
+build

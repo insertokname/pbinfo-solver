@@ -1,0 +1,16 @@
+{
+  "name": "pbinfo-solver",
+  "version": "1.0.0",
+  "description": "browser extension that solves pbinfo problems automatically",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp firefox & gulp chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-cli": "^3.0.0"
+  }
+}
